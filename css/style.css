@@ -1,0 +1,121 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+/* .half-width{
+    width:50%;
+    padding-left:5%;
+}
+
+.half-width img {
+    width: 70%;
+} */
+.btn-purchase{
+    border-radius:8px;
+    color:white;
+    padding:9px 25px;
+    border:none;
+    
+    /* background-image: linear-gradient( orangered 100%); */
+    background-color:#E76F51;
+
+}
+.text-color{
+    color:#E76F51;
+}
+
+
+.bg-honda{
+
+background: #264653;}
+/* 
+.img-gray {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width:200px;
+    height:200px;
+     */
+  }
+
+  .card-body{
+      width:360px;
+      height:478px;
+  }
+  
+  .fa-star{
+    font-size:12px;
+    text-align:center;
+}
+.fa-star.filled{
+   
+    color:#E76F51;
+
+}
+.fa-star.empty{
+    color:#E76F51;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    flex-wrap: wrap;
+    row-gap:2px;
+  }
+  
+  /* .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    
+  } */
+  .column{
+      flex:1;
+      flex-direction:column;
+      justify-items: flex-end;
+  }
+  
+  .button {
+    flex: 1;
+    color: white;
+  }
+  
+  .button.rowspan {
+    flex: 4;
+    width:300px;
+    height:300px;
+    flex-direction: column;
+  }
+
+  .container-question{
+      width:1125px;
+      height:495px;
+      left:157px;
+    
+  }
+  .btn-submit{
+    border-radius:8px;
+    color:white;
+    padding:9px 25px;
+    border:none;
+    
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+
+}
+ .form-bg{
+  
+    
+    background-color: #fceae8;
+
+} 
+/* extra segemnt */
+
+  
+  
+
+
