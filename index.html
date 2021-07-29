@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hondar Site</title>
     <script src="https://kit.fontawesome.com/f9990df358.js" crossorigin="anonymous"></script>
+    <link href="bootstrap-accordions-faqs.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -62,11 +66,35 @@
 
 
 
-        </section>
+
         </section>
 
     </header>
     <main>
+        <section class="p-4 m-6">
+            <div>
+                <h1 class="text-center pt-5">Featured Bikes 2021</h1>
+                <p class="text-color text-center">Best Bike collection</p>
+            </div>
+            <div class="card-group p-2">
+                <div class="card">
+                    <img src="images/image.png" width="288" height="243" class="card-img-top" alt="...">
+
+                </div>
+                <div class="card">
+                    <img src="images/feature-bike2.jfif" width="288" height="243" class="card-img-top" alt="...">
+
+                </div>
+                <div class="card">
+                    <img src="images/image.png" width="288" height="243" class="card-img-top" alt="...">
+
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+
+        <!--         
         <section class="container">
             <div class="container">
                 <h1 class="text-center mt-5">Featured Bikes 2021</h1>
@@ -74,26 +102,28 @@
             </div>
             <div class="container">
                 <div class="row justify-content-center grid img-gray">
-                    <!-- <div class="col-sm-3">
-                        <img src="images/bike-1.png" alt="">
+                    <div class="col-sm-3">
+                        <img src="images/feature-bike2.jfif" alt="">
                     </div>
-                    <div class="col-sm-3"> <img src=" images/bike-1.png" alt=""></div>
-                    <div class="col-sm-3"> <img src="images/bike-1.png" alt=""></div>
-                </div> -->
+                    <div class="col-sm-3"> <img src=" images/feature-bike2.jfif" alt=""></div>
+                    <div class="col-sm-3"> <img src="images/feature-bike2.jfif" alt=""></div>
                 </div>
             </div>
+            </div>
 
-        </section>
+        </section> -->
 
 
         <!-- Client section -->
-        <section>
-            <h1 class="text-center">Happy <span style="color:#E76F51;">Clients Says</span></h1>
+        <section class="p-4 m-6">
+            <h1 class="text-center pt-10">Happy <span style="color:#E76F51;">Clients Says</span></h1>
             <br>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
+            <br>
+            <div class="row  row-cols-1 row-cols-md-3 g-4 ml-3">
+                <div class="col-md-4">
                     <div class="card ">
-                        <img src="images/myuser.png" class="card-img-top" width="100" height="400" alt="...">
+                        <img class="avatar p-3 text-center center" src="images/user-1.png"
+                            class="card-img-top p-3 m-2 text-center" width="100%" alt="...">
                         <div class="card-body">
 
                             <p class="card-text">.
@@ -124,9 +154,10 @@
 
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="images/user-2.png" class="card-img-top" width="100" height="400" alt="...">
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img class="avatar center p-3 text-center" src="images/user-2.png" class="card-img-top p-3 m-2"
+                            width="100%" alt="...">
                         <div class="card-body">
 
                             <p class="card-text"> Slate helps you see how
@@ -154,9 +185,10 @@
                     </div>
                 </div>
 
-                <div class="col">
-                    <div class="card h-100">
-                        <img src="images/user-3.jpg" class="card-img-top" width="100" height="400" alt="...">
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img class="avatar center p-3 text-center" style="border-radius: 50%;" src="images/user-3.jpg"
+                            class="card-img-top p-3 m-2" width="100%" alt="...">
                         <div class="card-body">
 
                             <p class="card-text"> Slate helps you see how
@@ -178,13 +210,16 @@
                             <br>
                             <h6 style="color:skyblue" class="text-center">Regina Miles</h6>
                             <h6 class="text-center">Banker</h6>
+
                         </div>
 
                     </div>
                 </div>
+
+
             </div>
-            </div>
-            </div>
+            <!-- </div>
+            </div> -->
         </section>
         <br>
 
@@ -193,25 +228,166 @@
         <!-- Frequently Asked Question -->
         <section class="container-question">
             <h1 class="text-center">Frequently Asked <span style="color:#E76F51">Questions</span></h1>
-            <div class="row gx-4">
+            <br>
+            <br>
+            <div class="row   d-flex justify-content-around gx-4">
 
-                <div class="container px-4 gx-4">
+                <div class="container justify-content-around px-4 gx-4">
                     <div class="column justify-content-start gx-3">
 
                         <div class="button gx-2 rowspan">
                             <img src="images/faq2.png" alt="">
                         </div>
 
-                        <!-- <div class="button" style="background: green;">
-                        Column 7
-                    </div> -->
+
+
+                        <!-- Dropdwon FAQ -->
+
+                        <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
+                            <div class="container ">
+
+                                <div class="row    justify-content-around gx-4">
+
+                                    <!-- <div class="container justify-content-around px-4 gx-4"> -->
+                                    <div class="column  row-gap-4 d-flex justify-content-start gx-3">
+
+                                        <div class="button m-4 gx-2 rowspan">
+                                            <img src="images/img1.jfif" alt="">
+                                        </div>
+
+
+                                        <div class="panel-group" id="accordion" role="tablist"
+                                            aria-multiselectable="true">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
+                                                    <h3 class="panel-title">
+                                                        <a class="collapsed" role="button" title=""
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="#collapse0" aria-expanded="true"
+                                                            aria-controls="collapse0">
+                                                            What are the benefits of Solodev CMS?
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                                <div id="collapse0" class="panel-collapse collapse" role="tabpanel"
+                                                    aria-labelledby="heading0">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>With Solodev CMS, you and your visitors will benefit from a
+                                                            finely-tuned
+                                                            technology stack
+                                                            that drives the highest levels of site performance, speed
+                                                            and engagement
+                                                            - and
+                                                            contributes more to your bottom line. Our users fell in love
+                                                            with:</p>
+                                                        <ul>
+                                                            <li>Light speed deployment on the most secure and stable
+                                                                cloud
+                                                                infrastructure available
+                                                                on the market.</li>
+                                                            <li>Scalability – pay for what you need today and add-on
+                                                                options as you
+                                                                grow.</li>
+                                                            <li>All of the bells and whistles of other enterprise CMS
+                                                                options but
+                                                                without the design
+                                                                limitations - this CMS simply lets you realize your
+                                                                creative
+                                                                visions.</li>
+                                                            <li>Amazing support backed by a team of Solodev pros – here
+                                                                when you
+                                                                need them.</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
+                                                    <h3 class="panel-title">
+                                                        <a class="collapsed" role="button" title=""
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="#collapse1" aria-expanded="true"
+                                                            aria-controls="collapse1">
+                                                            How easy is it to build a website with Solodev CMS?
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel"
+                                                    aria-labelledby="heading1">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>Building a website is extremely easy. With a working
+                                                            knowledge of HTML
+                                                            and CSS you will
+                                                            be able to have a site up and running in no time.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
+                                                    <h3 class="panel-title">
+                                                        <a class="collapsed" role="button" title=""
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="#collapse2" aria-expanded="true"
+                                                            aria-controls="collapse2">
+                                                            What is the uptime for Solodev CMS?
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                                <div id="collapse2" class="panel-collapse collapse" role="tabpanel"
+                                                    aria-labelledby="heading2">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>Using Amazon AWS technology which is an industry leader for
+                                                            reliability
+                                                            you will be able
+                                                            to experience an uptime in the vicinity of 99.95%.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
+                                                    <h3 class="panel-title">
+                                                        <a class="collapsed" role="button" title=""
+                                                            data-toggle="collapse" data-parent="#accordion"
+                                                            href="#collapse3" aria-expanded="true"
+                                                            aria-controls="collapse3">
+                                                            Can Solodev CMS handle multiple websites for my company?
+                                                        </a>
+                                                    </h3>
+                                                </div>
+                                                <div id="collapse3" class="panel-collapse collapse" role="tabpanel"
+                                                    aria-labelledby="heading3">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>Yes, Solodev CMS is built to handle the needs of any size
+                                                            company. With
+                                                            our Multi-Site
+                                                            Management, you will be able to easily manage all of your
+                                                            websites.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+
+
+
+
                     </div>
+
+
 
                     <div class="d-flex justify-content-end">
                         <div class="column justify-content-end button ">
                             <div class="card text-white bg-white mb-3" style="max-width: 38rem;">
                                 <div class="card-header">
-                                    <div class="dropdown">
+                                    <div class="dropdown ">
                                         <button class="btn btn-secondary dropdown-toggle text-wrap" type="button"
                                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                             What are the most important things I should
@@ -229,18 +405,11 @@
                                                 signals, signs, and laws. Get in the mindset of “driving” your
                                                 bike—not just “riding” your bike. This will help you be a more
                                                 focused and legally compliant bike ride</p>
-                                            <!-- <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+
                                         </ul>
                                     </div>
                                 </div>
-                                <!-- <div class="card-body">
-                            <h5 class="card-title">Primary card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the
-                                bulk
-                                of the card's content.</p>
-                        </div> -->
+
                             </div>
                             <div class="card text-white bg-white mb-3" style="max-width: 38rem;">
                                 <div class="card-header">
@@ -320,15 +489,100 @@
         </section>
 
         <br>
+        <br>
+        <br>
+
 
         <!-- </main> -->
         <!-- extra section -->
+        <section style="height:300px;"
+            class="container  form-bg d-flex justify-content-center align-items-center rounded-3 " id="subscribe">>
+            <h1 class="text-center p-3">Bike Buy Registration Form</h1>
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <label for="validationServer01" class="form-label">First name</label>
+                    <input type="text" class="form-control is-valid" id="validationServer01" value="Fariha" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationServer02" class="form-label">Last name</label>
+                    <input type="text" class="form-control is-valid" id="validationServer02" value="Promi" required>
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label for="validationServerUsername" class="form-label">Bike Model</label>
+                    <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                        <input type="text" class="form-control is-invalid" id="validationServerUsername"
+                            aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
+                        <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                            Please choose a Bike Model.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="validationServer03" class="form-label">City</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer03"
+                        aria-describedby="validationServer03Feedback" required>
+                    <div id="validationServer03Feedback" class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationServer04" class="form-label">State</label>
+                    <select class="form-select is-invalid" id="validationServer04"
+                        aria-describedby="validationServer04Feedback" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>...</option>
+                    </select>
+                    <div id="validationServer04Feedback" class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationServer05" class="form-label">Address</label>
+                    <input type="text" class="form-control is-invalid" id="validationServer05"
+                        aria-describedby="validationServer05Feedback" required>
+                    <div id="validationServer05Feedback" class="invalid-feedback">
+                        Please provide a valid Adress.
+                    </div>
+                </div>
+
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
+                            aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                            Agree to terms and conditions
+                        </label>
+                        <div id="invalidCheck3Feedback" class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                    <!-- </div> -->
+
+                    <div class="col-12">
+                        <button class="btn-submit" type="submit">Submit form</button>
+                    </div>
+            </form>
+        </section>
+        <br>
+        <br>
+        <br>
+
+
+
 
         <!-- extra section -->
 
         <!-- carosel -->
         <!-- images slider -->
-        <section class="container">
+        <section class="container p-4 ronuded-2">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item p-5 active   ">

@@ -92,12 +92,12 @@ background: #264653;}
     flex-direction: column;
   }
 
-  .container-question{
+   .container-question{
       width:1125px;
       height:495px;
       left:157px;
     
-  }
+  } 
   .btn-submit{
     border-radius:8px;
     color:white;
@@ -117,8 +117,58 @@ background: #264653;}
 .bg-carousel{
     background-color: skyblue;
 }
+.avatar {
+    vertical-align: center;
+    width: 296px;
+    height: 293px;
+    border-radius: 50%;
+    margin-top:4px;
+  }
+  .avatar img{
+      align-items: center;
+      padding-left:4px;
+      justify-items: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
-  
-  
+  /* DROPDWON FAQ */
+
+  h2 {
+    font-family: Arial, Verdana;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #1f7de2;
+    float: right;
+    margin-top: -12px;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+}
 
 
