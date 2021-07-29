@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hondar Site</title>
     <script src="https://kit.fontawesome.com/f9990df358.js" crossorigin="anonymous"></script>
-    <link href="bootstrap-accordions-faqs.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -22,47 +19,61 @@
 
 
 
+        <!-- header -->
+
         <section class=" text-white d-flex bg-honda justify-content-between m-10">
-            <div class="row info-background p-5 bg-gradient d-felx align-items-center">
-                <div class="col-lg-7">
-                    <p class="mx-10">Computer-controlled digital transistorized with electronic
-                        avbance</p>
-                    <h1>Honda CBR 304</h1>
-                    <br>
-                    <p class="text-wrap">Amet minim mollit non deserunt ullamco est sit aliqua
-                        dolor do amet sint. Velit officia consequat duis enim velit
-                        mollit. Exercitation veniam consequat sunt nostrud amet</p>
+            <div class="row  container info-background p-5 bg-gradient d-felx align-items-center">
+                <div class="row-p-3">
+                    <div class="col-m-3 ">
+                        <p class="mx-10">Computer-controlled digital transistorized with electronic
+                            avbance</p>
+                        <h1>Honda CBR 3004</h1>
+                        <br>
+                        <p class="text-wrap">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia consequat duis enim velit
+                            mollit. Exercitation veniam consequat sunt nostrud amet</p>
 
-                    <button class="btn-purchase ">Purchase</button>
+                    </div>
+                </div>
 
-                    <!-- modal -->
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    ...
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class=" btn-purchase" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn-purchase">Save changes</button>
-                                </div>
+
+                <button type="button" class=" btn-purchase  col-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+
+
+
+                <!-- modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title " id="exampleModalLabel">Hi There!!</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Click yes if you want to buy</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Yes</button>
                             </div>
                         </div>
                     </div>
-
                 </div>
+                <!-- Modal -->
 
-                <div class="col-lg-5 ">
-                    <img src="images/header-bike.png" class="d-block w-100" alt="...">
-                </div>
+
             </div>
+
+            <div class="col-lg-5 col-m-3 ">
+                <img src="images/header-bike.png" class="d-block w-100" alt="...">
+            </div>
+            </div>
+
 
 
 
@@ -75,52 +86,43 @@
             <div>
                 <h1 class="text-center pt-5">Featured Bikes 2021</h1>
                 <p class="text-color text-center">Best Bike collection</p>
+                <br>
+                <br>
             </div>
-            <div class="card-group p-2">
-                <div class="card">
-                    <img src="images/image.png" width="288" height="243" class="card-img-top" alt="...">
+            <div class="container justify-content-center  align-items-center">
+                <div class="row p-5 gx-5">
+                    <div class="col ">
+                        <img class="grey" src="images/image.png" width="283" height="243" alt="">
+                    </div>
+                    <div class="col">
+                        <img src="images/feature-bike.jpg" width="283" height="243" alt="">
+                    </div>
 
-                </div>
-                <div class="card">
-                    <img src="images/feature-bike2.jfif" width="288" height="243" class="card-img-top" alt="...">
-
-                </div>
-                <div class="card">
-                    <img src="images/image.png" width="288" height="243" class="card-img-top" alt="...">
-
+                    <div class="col">
+                        <img class="grey" src="images/image.png" width="283" height="243" alt="">
+                    </div>
                 </div>
             </div>
+
         </section>
         <br>
         <br>
+        <br>
 
-        <!--         
-        <section class="container">
-            <div class="container">
-                <h1 class="text-center mt-5">Featured Bikes 2021</h1>
-                <h3 class="text-color text-center">Best Bike collection</h3>
-            </div>
-            <div class="container">
-                <div class="row justify-content-center grid img-gray">
-                    <div class="col-sm-3">
-                        <img src="images/feature-bike2.jfif" alt="">
-                    </div>
-                    <div class="col-sm-3"> <img src=" images/feature-bike2.jfif" alt=""></div>
-                    <div class="col-sm-3"> <img src="images/feature-bike2.jfif" alt=""></div>
-                </div>
-            </div>
-            </div>
 
-        </section> -->
 
 
         <!-- Client section -->
-        <section class="p-4 m-6">
+        <section class="p-4 mt-6">
+
             <h1 class="text-center pt-10">Happy <span style="color:#E76F51;">Clients Says</span></h1>
             <br>
             <br>
+
+
+
             <div class="row  row-cols-1 row-cols-md-3 g-4 ml-3">
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                     <div class="card ">
                         <img class="avatar p-3 text-center center" src="images/user-1.png"
                             class="card-img-top p-3 m-2 text-center" width="100%" alt="...">
@@ -227,279 +229,109 @@
 
         <!-- Frequently Asked Question -->
         <section class="container-question">
-            <h1 class="text-center">Frequently Asked <span style="color:#E76F51">Questions</span></h1>
-            <br>
-            <br>
-            <div class="row   d-flex justify-content-around gx-4">
-
-                <div class="container justify-content-around px-4 gx-4">
-                    <div class="column justify-content-start gx-3">
-
-                        <div class="button gx-2 rowspan">
-                            <img src="images/faq2.png" alt="">
-                        </div>
-
-
-
-                        <!-- Dropdwon FAQ -->
-
-                        <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
-                            <div class="container ">
-
-                                <div class="row    justify-content-around gx-4">
-
-                                    <!-- <div class="container justify-content-around px-4 gx-4"> -->
-                                    <div class="column  row-gap-4 d-flex justify-content-start gx-3">
-
-                                        <div class="button m-4 gx-2 rowspan">
-                                            <img src="images/img1.jfif" alt="">
-                                        </div>
-
-
-                                        <div class="panel-group" id="accordion" role="tablist"
-                                            aria-multiselectable="true">
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
-                                                    <h3 class="panel-title">
-                                                        <a class="collapsed" role="button" title=""
-                                                            data-toggle="collapse" data-parent="#accordion"
-                                                            href="#collapse0" aria-expanded="true"
-                                                            aria-controls="collapse0">
-                                                            What are the benefits of Solodev CMS?
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                                <div id="collapse0" class="panel-collapse collapse" role="tabpanel"
-                                                    aria-labelledby="heading0">
-                                                    <div class="panel-body px-3 mb-4">
-                                                        <p>With Solodev CMS, you and your visitors will benefit from a
-                                                            finely-tuned
-                                                            technology stack
-                                                            that drives the highest levels of site performance, speed
-                                                            and engagement
-                                                            - and
-                                                            contributes more to your bottom line. Our users fell in love
-                                                            with:</p>
-                                                        <ul>
-                                                            <li>Light speed deployment on the most secure and stable
-                                                                cloud
-                                                                infrastructure available
-                                                                on the market.</li>
-                                                            <li>Scalability – pay for what you need today and add-on
-                                                                options as you
-                                                                grow.</li>
-                                                            <li>All of the bells and whistles of other enterprise CMS
-                                                                options but
-                                                                without the design
-                                                                limitations - this CMS simply lets you realize your
-                                                                creative
-                                                                visions.</li>
-                                                            <li>Amazing support backed by a team of Solodev pros – here
-                                                                when you
-                                                                need them.</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading p-3 mb-3" role="tab" id="heading1">
-                                                    <h3 class="panel-title">
-                                                        <a class="collapsed" role="button" title=""
-                                                            data-toggle="collapse" data-parent="#accordion"
-                                                            href="#collapse1" aria-expanded="true"
-                                                            aria-controls="collapse1">
-                                                            How easy is it to build a website with Solodev CMS?
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                                <div id="collapse1" class="panel-collapse collapse" role="tabpanel"
-                                                    aria-labelledby="heading1">
-                                                    <div class="panel-body px-3 mb-4">
-                                                        <p>Building a website is extremely easy. With a working
-                                                            knowledge of HTML
-                                                            and CSS you will
-                                                            be able to have a site up and running in no time.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading p-3 mb-3" role="tab" id="heading2">
-                                                    <h3 class="panel-title">
-                                                        <a class="collapsed" role="button" title=""
-                                                            data-toggle="collapse" data-parent="#accordion"
-                                                            href="#collapse2" aria-expanded="true"
-                                                            aria-controls="collapse2">
-                                                            What is the uptime for Solodev CMS?
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                                <div id="collapse2" class="panel-collapse collapse" role="tabpanel"
-                                                    aria-labelledby="heading2">
-                                                    <div class="panel-body px-3 mb-4">
-                                                        <p>Using Amazon AWS technology which is an industry leader for
-                                                            reliability
-                                                            you will be able
-                                                            to experience an uptime in the vicinity of 99.95%.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading p-3 mb-3" role="tab" id="heading3">
-                                                    <h3 class="panel-title">
-                                                        <a class="collapsed" role="button" title=""
-                                                            data-toggle="collapse" data-parent="#accordion"
-                                                            href="#collapse3" aria-expanded="true"
-                                                            aria-controls="collapse3">
-                                                            Can Solodev CMS handle multiple websites for my company?
-                                                        </a>
-                                                    </h3>
-                                                </div>
-                                                <div id="collapse3" class="panel-collapse collapse" role="tabpanel"
-                                                    aria-labelledby="heading3">
-                                                    <div class="panel-body px-3 mb-4">
-                                                        <p>Yes, Solodev CMS is built to handle the needs of any size
-                                                            company. With
-                                                            our Multi-Site
-                                                            Management, you will be able to easily manage all of your
-                                                            websites.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-
-
-
-
+            <div class="container ">
+                <h1 class="text-center">Frequently Asked <span style="color:#E76F51">Questions</span></h1>
+                <br>
+                <br>
+                <div class="row g-4  p-4 d-flex ">
+                    <div class="col-sm-6 p-5">
+                        <img class="img-fluid" src="images/faq.png" alt="">
                     </div>
+                    <div class="col-sm-6 p-5">
 
-
-
-                    <div class="d-flex justify-content-end">
-                        <div class="column justify-content-end button ">
-                            <div class="card text-white bg-white mb-3" style="max-width: 38rem;">
-                                <div class="card-header">
-                                    <div class="dropdown ">
-                                        <button class="btn btn-secondary dropdown-toggle text-wrap" type="button"
-                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                            What are the most important things I should
-
-                                            know about riding a bike?
-
-
-                                        </button>
-
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <p style="color:black" class="text-wrap">Safety First! Always obey the rules
-                                                of
-                                                the
-                                                road. Obey all traffic
-                                                signals, signs, and laws. Get in the mindset of “driving” your
-                                                bike—not just “riding” your bike. This will help you be a more
-                                                focused and legally compliant bike ride</p>
-
-                                        </ul>
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseOne">
+                                        What are the most important things I should
+                                        know about riding a bike?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingOne" style="">
+                                    <div class="accordion-body">
+                                        Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                        signs, and laws. Get in the mindset of “driving” your bike—not just “riding”
+                                        your bike. This will help you be a more focused and legally compliant bike
+                                        rider.
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="card text-white bg-white mb-3" style="max-width: 38rem;">
-                                <div class="card-header">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle text-wrap" type="button"
-                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-
-                                            How can I tell if my helmet is old and I need a new one?
-
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <p style="color:black" class="text-wrap">Safety First! Always obey the rules
-                                                of
-                                                the
-                                                road. Obey all traffic
-                                                signals, signs, and laws. Get in the mindset of “driving” your
-                                                bike—not just “riding” your bike. This will help you be a more
-                                                focused and legally compliant bike ride</p>
-
-                                        </ul>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        How can I tell if my helmet is old and I need a
+                                        new one?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingTwo" style="">
+                                    <div class="accordion-body">
+                                        I need to go to shopping mall to buy new helmet
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="card text-white bg-white mb-3" style="max-width: 38rem;">
-                                <div class="card-header">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle text-wrap" type="button"
-                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                            My bike has been in storage is it safe to ride?
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseTwo">
+                                        My bike has been in storage is it safe to ride?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingTwo" style="">
+                                    <div class="accordion-body">
+                                        Bike should be dirven Properly.During Driving you should take care of trafic
+                                        rules
 
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <p style="color:black" class="text-wrap">Safety First! Always obey the rules
-                                                of
-                                                the
-                                                road. Obey all traffic
-                                                signals, signs, and laws. Get in the mindset of “driving” your
-                                                bike—not just “riding” your bike. This will help you be a more
-                                                focused and legally compliant bike ride</p>
-
-
-                                        </ul>
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="card text-white bg-white mb-3" style="max-width: 38rem;">
-                                <div class="card-header">
-                                    <div class="dropdown">
-                                        <button class="btn btn-secondary dropdown-toggle text-wrap" type="button"
-                                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                            What rules should I follow when riding my bike?
-                                        </button>
-                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                            <p style="color:black" class="text-wrap">Safety First! Always obey the rules
-                                                of
-                                                the
-                                                road. Obey all traffic
-                                                signals, signs, and laws. Get in the mindset of “driving” your
-                                                bike—not just “riding” your bike. This will help you be a more
-                                                focused and legally compliant bike ride</p>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true"
+                                        aria-controls="panelsStayOpen-collapseThree">
+                                        What rules should I follow when riding my bike?
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show"
+                                    aria-labelledby="panelsStayOpen-headingThree" style="">
+                                    <div class="accordion-body">
+                                        Ride on the right in the same direction as other vehicles. Go with the flow –
+                                        not against it.
+                                        Obey All Traffic Laws. A bicycle is a vehicle and you're a driver.
 
-
-                                        </ul>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-            </div>
-
         </section>
 
+
+
+
+        <br>
         <br>
         <br>
         <br>
 
 
-        <!-- </main> -->
+
         <!-- extra section -->
         <section style="height:300px;"
-            class="container  form-bg d-flex justify-content-center align-items-center rounded-3 " id="subscribe">>
+            class="container   form-bg d-flex justify-content-center align-items-center rounded-3 p-10 " id="subscribe">
+            >
             <h1 class="text-center p-3">Bike Buy Registration Form</h1>
-            <form class="row g-3">
-                <div class="col-md-4">
+            <form class="row g-3 form-class">
+                <div class="col-md-4 col-sm-1 p-3">
                     <label for="validationServer01" class="form-label">First name</label>
                     <input type="text" class="form-control is-valid" id="validationServer01" value="Fariha" required>
                     <div class="valid-feedback">
@@ -575,6 +407,7 @@
         <br>
         <br>
 
+        <br>
 
 
 
@@ -582,12 +415,12 @@
 
         <!-- carosel -->
         <!-- images slider -->
-        <section class="container p-4 ronuded-2">
+        <section class="container  p-4 ronuded-2">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item p-5 active   ">
+                    <div class="carousel-item p-5 active  m-4 ">
                         <div class="row bg-carousel p-5 bg-gradient d-flex align-items-center">
-                            <div class="col-lg-7">
+                            <div class="col-lg-7 col-sm-1">
                                 <h1>PRO BIKE Aprila</h1>
                                 <p>Aprilia was founded directly after WW2 as a manufacturer of bicycles,
                                     moving to scooters and motorcycles in 1968</p>
